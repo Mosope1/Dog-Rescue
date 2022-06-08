@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <h1>Lost Pet Registrtation</h1>
+    <form id="signup">
+      <fieldset>
+        <legend>Information</legend>
+            <p>
+                <label for="Name">Name</label>
+                <input type="text" id="name" name="Name">
+            </p>
+            <p>
+                <label>Gender</label>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+            
+                 <input type="radio" id="female" name="gender" value="Female">
+                 <label for="female">Female</label>
+            
+            </p>
+            <p>
+                <label>Breed</label>
+                <Input type="text" name="Breed">
+            </p>
+            <p>
+                <label>Age</label>
+                <Input type="number" id= age name="age">            
+            </p>
+            <p>
+                <label for="Colour"></label>
+                <Input type="text" name="Colour">
+            </p>
+            <p>
+                <label>Nutured</label>
+                <Input type="checkbox" id="Yes" name="Sterilised" value="Yes">
+                <label for="Yes">Yes</label>
+                <Input type="checkbox" id="No" name="Sterilised" value="No">
+                <label for="no"> No </label>
+            </p>
+            <p>
+                <Label>Chipped</Label>
+                <Input id="chippedYes" type="radio" name="Chipped" value="Yes">
+                <label for="Yes">Yes</label>
+                <input  id="chippedNo" type="radio" name="Chipped" value="No">
+                <label for="no">No</label>
+            </p>
+            <p>
+                <label>Temperament (Aggressive)</label>
+                <Input type="range" id="personality" name= temperemant min="0" max="5">
+            </p>
+        </fieldset>
+    </form>
+        <button onclick="saveDog()">DOGS</button>
+</body>
+</html>
+
+
+            
